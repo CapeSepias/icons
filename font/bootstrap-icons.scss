@@ -1,6 +1,6 @@
 $bootstrap-icons-font: "bootstrap-icons" !default;
-$bootstrap-icons-font-src: url("./fonts/bootstrap-icons.woff2?30af91bf14e37666a085fb8a161ff36d") format("woff2"),
-url("./fonts/bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d") format("woff") !default;
+$bootstrap-icons-font-src: url("./fonts/bootstrap-icons.woff2?9be15ee07309c1d703d3d9e3dc6307d2") format("woff2"),
+url("./fonts/bootstrap-icons.woff?9be15ee07309c1d703d3d9e3dc6307d2") format("woff") !default;
 
 @font-face {
   font-family: $bootstrap-icons-font;
@@ -1558,6 +1558,120 @@ $bootstrap-icons-map: (
   "mortarboard-fill": "\f6fd",
   "mortarboard": "\f6fe",
   "terminal-x": "\f6ff",
+  "arrow-through-heart-fill": "\f700",
+  "arrow-through-heart": "\f701",
+  "bag-heart-fill": "\f702",
+  "bag-heart": "\f703",
+  "balloon-fill": "\f704",
+  "balloon-heart-fill": "\f705",
+  "balloon-heart": "\f706",
+  "balloon": "\f707",
+  "calendar-heart-fill": "\f708",
+  "calendar-heart": "\f709",
+  "calendar2-heart-fill": "\f70a",
+  "calendar2-heart": "\f70b",
+  "chat-heart-fill": "\f70c",
+  "chat-heart": "\f70d",
+  "chat-left-heart-fill": "\f70e",
+  "chat-left-heart": "\f70f",
+  "chat-right-heart-fill": "\f710",
+  "chat-right-heart": "\f711",
+  "chat-square-heart-fill": "\f712",
+  "chat-square-heart": "\f713",
+  "clipboard-heart": "\f714",
+  "clipboard-pulse": "\f715",
+  "clipboard2-check": "\f716",
+  "clipboard2-data": "\f717",
+  "clipboard2-heart": "\f718",
+  "clipboard2-minus": "\f719",
+  "clipboard2-plus": "\f71a",
+  "clipboard2-pulse": "\f71b",
+  "clipboard2-x": "\f71c",
+  "clipboard2": "\f71d",
+  "emoji-kiss-fill": "\f71e",
+  "emoji-kiss": "\f71f",
+  "envelope-heart": "\f720",
+  "envelope-open-heart": "\f721",
+  "envelope-paper-fill": "\f722",
+  "envelope-paper-heart-fill": "\f723",
+  "envelope-paper-heart": "\f724",
+  "envelope-paper": "\f725",
+  "filetype-aac": "\f726",
+  "filetype-ai": "\f727",
+  "filetype-bmp": "\f728",
+  "filetype-cs": "\f729",
+  "filetype-css": "\f72a",
+  "filetype-csv": "\f72b",
+  "filetype-doc": "\f72c",
+  "filetype-docx": "\f72d",
+  "filetype-exe": "\f72e",
+  "filetype-gif": "\f72f",
+  "filetype-heic": "\f730",
+  "filetype-html": "\f731",
+  "filetype-java": "\f732",
+  "filetype-jpg": "\f733",
+  "filetype-js": "\f734",
+  "filetype-jsx": "\f735",
+  "filetype-key": "\f736",
+  "filetype-m4p": "\f737",
+  "filetype-md": "\f738",
+  "filetype-mdx": "\f739",
+  "filetype-mov": "\f73a",
+  "filetype-mp3": "\f73b",
+  "filetype-mp4": "\f73c",
+  "filetype-otf": "\f73d",
+  "filetype-pdf": "\f73e",
+  "filetype-php": "\f73f",
+  "filetype-png": "\f740",
+  "filetype-ppt-1": "\f741",
+  "filetype-ppt": "\f742",
+  "filetype-psd": "\f743",
+  "filetype-py": "\f744",
+  "filetype-raw": "\f745",
+  "filetype-rb": "\f746",
+  "filetype-sass": "\f747",
+  "filetype-scss": "\f748",
+  "filetype-sh": "\f749",
+  "filetype-svg": "\f74a",
+  "filetype-tiff": "\f74b",
+  "filetype-tsx": "\f74c",
+  "filetype-ttf": "\f74d",
+  "filetype-txt": "\f74e",
+  "filetype-wav": "\f74f",
+  "filetype-woff": "\f750",
+  "filetype-xls-1": "\f751",
+  "filetype-xls": "\f752",
+  "filetype-xml": "\f753",
+  "filetype-yml": "\f754",
+  "heart-arrow": "\f755",
+  "heart-pulse": "\f756",
+  "hearts": "\f757",
+  "hospital": "\f758",
+  "house-heart-fill": "\f759",
+  "house-heart": "\f75a",
+  "incognito": "\f75b",
+  "magnet-fill": "\f75c",
+  "magnet": "\f75d",
+  "person-heart": "\f75e",
+  "person-hearts": "\f75f",
+  "phone-flip": "\f760",
+  "postage-fill": "\f761",
+  "postage-heart-fill": "\f762",
+  "postage-heart": "\f763",
+  "postage": "\f764",
+  "postcard-heart": "\f765",
+  "postcard": "\f766",
+  "search-heart": "\f767",
+  "sliders2-vertical": "\f768",
+  "sliders2": "\f769",
+  "trash3": "\f76a",
+  "valentine": "\f76b",
+  "valentine2": "\f76c",
+  "wrench-adjustable-circle-fill": "\f76d",
+  "wrench-adjustable-cricle": "\f76e",
+  "wrench-adjustable": "\f76f",
+  "wrench-circle-fill": "\f770",
+  "wrench-cricle": "\f771",
 );
 
 .bi-123::before { content: map-get($bootstrap-icons-map, "123"); }
@@ -3095,3 +3209,117 @@ $bootstrap-icons-map: (
 .bi-mortarboard-fill::before { content: map-get($bootstrap-icons-map, "mortarboard-fill"); }
 .bi-mortarboard::before { content: map-get($bootstrap-icons-map, "mortarboard"); }
 .bi-terminal-x::before { content: map-get($bootstrap-icons-map, "terminal-x"); }
+.bi-arrow-through-heart-fill::before { content: map-get($bootstrap-icons-map, "arrow-through-heart-fill"); }
+.bi-arrow-through-heart::before { content: map-get($bootstrap-icons-map, "arrow-through-heart"); }
+.bi-bag-heart-fill::before { content: map-get($bootstrap-icons-map, "bag-heart-fill"); }
+.bi-bag-heart::before { content: map-get($bootstrap-icons-map, "bag-heart"); }
+.bi-balloon-fill::before { content: map-get($bootstrap-icons-map, "balloon-fill"); }
+.bi-balloon-heart-fill::before { content: map-get($bootstrap-icons-map, "balloon-heart-fill"); }
+.bi-balloon-heart::before { content: map-get($bootstrap-icons-map, "balloon-heart"); }
+.bi-balloon::before { content: map-get($bootstrap-icons-map, "balloon"); }
+.bi-calendar-heart-fill::before { content: map-get($bootstrap-icons-map, "calendar-heart-fill"); }
+.bi-calendar-heart::before { content: map-get($bootstrap-icons-map, "calendar-heart"); }
+.bi-calendar2-heart-fill::before { content: map-get($bootstrap-icons-map, "calendar2-heart-fill"); }
+.bi-calendar2-heart::before { content: map-get($bootstrap-icons-map, "calendar2-heart"); }
+.bi-chat-heart-fill::before { content: map-get($bootstrap-icons-map, "chat-heart-fill"); }
+.bi-chat-heart::before { content: map-get($bootstrap-icons-map, "chat-heart"); }
+.bi-chat-left-heart-fill::before { content: map-get($bootstrap-icons-map, "chat-left-heart-fill"); }
+.bi-chat-left-heart::before { content: map-get($bootstrap-icons-map, "chat-left-heart"); }
+.bi-chat-right-heart-fill::before { content: map-get($bootstrap-icons-map, "chat-right-heart-fill"); }
+.bi-chat-right-heart::before { content: map-get($bootstrap-icons-map, "chat-right-heart"); }
+.bi-chat-square-heart-fill::before { content: map-get($bootstrap-icons-map, "chat-square-heart-fill"); }
+.bi-chat-square-heart::before { content: map-get($bootstrap-icons-map, "chat-square-heart"); }
+.bi-clipboard-heart::before { content: map-get($bootstrap-icons-map, "clipboard-heart"); }
+.bi-clipboard-pulse::before { content: map-get($bootstrap-icons-map, "clipboard-pulse"); }
+.bi-clipboard2-check::before { content: map-get($bootstrap-icons-map, "clipboard2-check"); }
+.bi-clipboard2-data::before { content: map-get($bootstrap-icons-map, "clipboard2-data"); }
+.bi-clipboard2-heart::before { content: map-get($bootstrap-icons-map, "clipboard2-heart"); }
+.bi-clipboard2-minus::before { content: map-get($bootstrap-icons-map, "clipboard2-minus"); }
+.bi-clipboard2-plus::before { content: map-get($bootstrap-icons-map, "clipboard2-plus"); }
+.bi-clipboard2-pulse::before { content: map-get($bootstrap-icons-map, "clipboard2-pulse"); }
+.bi-clipboard2-x::before { content: map-get($bootstrap-icons-map, "clipboard2-x"); }
+.bi-clipboard2::before { content: map-get($bootstrap-icons-map, "clipboard2"); }
+.bi-emoji-kiss-fill::before { content: map-get($bootstrap-icons-map, "emoji-kiss-fill"); }
+.bi-emoji-kiss::before { content: map-get($bootstrap-icons-map, "emoji-kiss"); }
+.bi-envelope-heart::before { content: map-get($bootstrap-icons-map, "envelope-heart"); }
+.bi-envelope-open-heart::before { content: map-get($bootstrap-icons-map, "envelope-open-heart"); }
+.bi-envelope-paper-fill::before { content: map-get($bootstrap-icons-map, "envelope-paper-fill"); }
+.bi-envelope-paper-heart-fill::before { content: map-get($bootstrap-icons-map, "envelope-paper-heart-fill"); }
+.bi-envelope-paper-heart::before { content: map-get($bootstrap-icons-map, "envelope-paper-heart"); }
+.bi-envelope-paper::before { content: map-get($bootstrap-icons-map, "envelope-paper"); }
+.bi-filetype-aac::before { content: map-get($bootstrap-icons-map, "filetype-aac"); }
+.bi-filetype-ai::before { content: map-get($bootstrap-icons-map, "filetype-ai"); }
+.bi-filetype-bmp::before { content: map-get($bootstrap-icons-map, "filetype-bmp"); }
+.bi-filetype-cs::before { content: map-get($bootstrap-icons-map, "filetype-cs"); }
+.bi-filetype-css::before { content: map-get($bootstrap-icons-map, "filetype-css"); }
+.bi-filetype-csv::before { content: map-get($bootstrap-icons-map, "filetype-csv"); }
+.bi-filetype-doc::before { content: map-get($bootstrap-icons-map, "filetype-doc"); }
+.bi-filetype-docx::before { content: map-get($bootstrap-icons-map, "filetype-docx"); }
+.bi-filetype-exe::before { content: map-get($bootstrap-icons-map, "filetype-exe"); }
+.bi-filetype-gif::before { content: map-get($bootstrap-icons-map, "filetype-gif"); }
+.bi-filetype-heic::before { content: map-get($bootstrap-icons-map, "filetype-heic"); }
+.bi-filetype-html::before { content: map-get($bootstrap-icons-map, "filetype-html"); }
+.bi-filetype-java::before { content: map-get($bootstrap-icons-map, "filetype-java"); }
+.bi-filetype-jpg::before { content: map-get($bootstrap-icons-map, "filetype-jpg"); }
+.bi-filetype-js::before { content: map-get($bootstrap-icons-map, "filetype-js"); }
+.bi-filetype-jsx::before { content: map-get($bootstrap-icons-map, "filetype-jsx"); }
+.bi-filetype-key::before { content: map-get($bootstrap-icons-map, "filetype-key"); }
+.bi-filetype-m4p::before { content: map-get($bootstrap-icons-map, "filetype-m4p"); }
+.bi-filetype-md::before { content: map-get($bootstrap-icons-map, "filetype-md"); }
+.bi-filetype-mdx::before { content: map-get($bootstrap-icons-map, "filetype-mdx"); }
+.bi-filetype-mov::before { content: map-get($bootstrap-icons-map, "filetype-mov"); }
+.bi-filetype-mp3::before { content: map-get($bootstrap-icons-map, "filetype-mp3"); }
+.bi-filetype-mp4::before { content: map-get($bootstrap-icons-map, "filetype-mp4"); }
+.bi-filetype-otf::before { content: map-get($bootstrap-icons-map, "filetype-otf"); }
+.bi-filetype-pdf::before { content: map-get($bootstrap-icons-map, "filetype-pdf"); }
+.bi-filetype-php::before { content: map-get($bootstrap-icons-map, "filetype-php"); }
+.bi-filetype-png::before { content: map-get($bootstrap-icons-map, "filetype-png"); }
+.bi-filetype-ppt-1::before { content: map-get($bootstrap-icons-map, "filetype-ppt-1"); }
+.bi-filetype-ppt::before { content: map-get($bootstrap-icons-map, "filetype-ppt"); }
+.bi-filetype-psd::before { content: map-get($bootstrap-icons-map, "filetype-psd"); }
+.bi-filetype-py::before { content: map-get($bootstrap-icons-map, "filetype-py"); }
+.bi-filetype-raw::before { content: map-get($bootstrap-icons-map, "filetype-raw"); }
+.bi-filetype-rb::before { content: map-get($bootstrap-icons-map, "filetype-rb"); }
+.bi-filetype-sass::before { content: map-get($bootstrap-icons-map, "filetype-sass"); }
+.bi-filetype-scss::before { content: map-get($bootstrap-icons-map, "filetype-scss"); }
+.bi-filetype-sh::before { content: map-get($bootstrap-icons-map, "filetype-sh"); }
+.bi-filetype-svg::before { content: map-get($bootstrap-icons-map, "filetype-svg"); }
+.bi-filetype-tiff::before { content: map-get($bootstrap-icons-map, "filetype-tiff"); }
+.bi-filetype-tsx::before { content: map-get($bootstrap-icons-map, "filetype-tsx"); }
+.bi-filetype-ttf::before { content: map-get($bootstrap-icons-map, "filetype-ttf"); }
+.bi-filetype-txt::before { content: map-get($bootstrap-icons-map, "filetype-txt"); }
+.bi-filetype-wav::before { content: map-get($bootstrap-icons-map, "filetype-wav"); }
+.bi-filetype-woff::before { content: map-get($bootstrap-icons-map, "filetype-woff"); }
+.bi-filetype-xls-1::before { content: map-get($bootstrap-icons-map, "filetype-xls-1"); }
+.bi-filetype-xls::before { content: map-get($bootstrap-icons-map, "filetype-xls"); }
+.bi-filetype-xml::before { content: map-get($bootstrap-icons-map, "filetype-xml"); }
+.bi-filetype-yml::before { content: map-get($bootstrap-icons-map, "filetype-yml"); }
+.bi-heart-arrow::before { content: map-get($bootstrap-icons-map, "heart-arrow"); }
+.bi-heart-pulse::before { content: map-get($bootstrap-icons-map, "heart-pulse"); }
+.bi-hearts::before { content: map-get($bootstrap-icons-map, "hearts"); }
+.bi-hospital::before { content: map-get($bootstrap-icons-map, "hospital"); }
+.bi-house-heart-fill::before { content: map-get($bootstrap-icons-map, "house-heart-fill"); }
+.bi-house-heart::before { content: map-get($bootstrap-icons-map, "house-heart"); }
+.bi-incognito::before { content: map-get($bootstrap-icons-map, "incognito"); }
+.bi-magnet-fill::before { content: map-get($bootstrap-icons-map, "magnet-fill"); }
+.bi-magnet::before { content: map-get($bootstrap-icons-map, "magnet"); }
+.bi-person-heart::before { content: map-get($bootstrap-icons-map, "person-heart"); }
+.bi-person-hearts::before { content: map-get($bootstrap-icons-map, "person-hearts"); }
+.bi-phone-flip::before { content: map-get($bootstrap-icons-map, "phone-flip"); }
+.bi-postage-fill::before { content: map-get($bootstrap-icons-map, "postage-fill"); }
+.bi-postage-heart-fill::before { content: map-get($bootstrap-icons-map, "postage-heart-fill"); }
+.bi-postage-heart::before { content: map-get($bootstrap-icons-map, "postage-heart"); }
+.bi-postage::before { content: map-get($bootstrap-icons-map, "postage"); }
+.bi-postcard-heart::before { content: map-get($bootstrap-icons-map, "postcard-heart"); }
+.bi-postcard::before { content: map-get($bootstrap-icons-map, "postcard"); }
+.bi-search-heart::before { content: map-get($bootstrap-icons-map, "search-heart"); }
+.bi-sliders2-vertical::before { content: map-get($bootstrap-icons-map, "sliders2-vertical"); }
+.bi-sliders2::before { content: map-get($bootstrap-icons-map, "sliders2"); }
+.bi-trash3::before { content: map-get($bootstrap-icons-map, "trash3"); }
+.bi-valentine::before { content: map-get($bootstrap-icons-map, "valentine"); }
+.bi-valentine2::before { content: map-get($bootstrap-icons-map, "valentine2"); }
+.bi-wrench-adjustable-circle-fill::before { content: map-get($bootstrap-icons-map, "wrench-adjustable-circle-fill"); }
+.bi-wrench-adjustable-cricle::before { content: map-get($bootstrap-icons-map, "wrench-adjustable-cricle"); }
+.bi-wrench-adjustable::before { content: map-get($bootstrap-icons-map, "wrench-adjustable"); }
+.bi-wrench-circle-fill::before { content: map-get($bootstrap-icons-map, "wrench-circle-fill"); }
+.bi-wrench-cricle::before { content: map-get($bootstrap-icons-map, "wrench-cricle"); }
